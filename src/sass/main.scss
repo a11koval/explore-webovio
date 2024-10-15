@@ -1,6 +1,14 @@
 // Import all of Bootstrap's CSS
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
 @import "./sections/header";
 @import "./sections/section1";
 @import "./sections/client";
