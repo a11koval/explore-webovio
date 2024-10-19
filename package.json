@@ -1,11 +1,11 @@
 {
-    "name": "vite-project",
+    "name": "explore-webovio",
     "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build --base=/vite-project/",
+        "build": "vite build --base=./",
         "preview": "vite preview"
     },
     "devDependencies": {

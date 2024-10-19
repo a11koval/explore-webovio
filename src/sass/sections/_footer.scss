@@ -1,0 +1,149 @@
+.footer {
+    background-image: url(../img/Bg-footer1x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.our_contacts-list {
+    padding: 200px 0 70px 40px;
+    display: flex;
+    gap: 60px;
+}
+
+.line {
+    color:black;
+    height: 1px;
+    width: 1110px;
+}
+
+.contact-title {
+    color: #B6C197;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.contact-onfo {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.about-us-list {
+    display: flex;
+    gap: 90px;
+}
+
+.about-us-list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-title {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.about-us-link {
+    color: #B6C197;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+
+}
+
+.social-link {
+    fill: #FFFFFF;
+    padding: 12px;
+    background-color: #444A34;
+    border-radius: 30px;
+    transition: background-color 250ms;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+    color: #FFFFFF;
+    border-radius: 50%;
+    transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px;
+}
+
+.social-link:hover {
+    background-color: #FFD723;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right-top-title {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: left;
+
+}
+
+.footer-right-top-text {
+    color: #B6C197;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+
+
+}
+
+.reline__mail {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+
+}
+
+.footer-bottom-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.footer-bottom-text {
+    color: #B5C096;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+
+}
